@@ -1,0 +1,144 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "Administrador ESPE",
+      "correo": "admin@espe.edu.ec",
+      "tipo": "Administrativo",
+      "rol": "administrador",
+      "contrasena": "admin123"
+    },
+    {
+      "id": "2",
+      "nombre": "Ana López",
+      "correo": "ana@espe.edu.ec",
+      "tipo": "Estudiante",
+      "rol": "usuario",
+      "contrasena": "123456"
+    },
+    {
+      "id": "3",
+      "nombre": "Carlos Pérez",
+      "correo": "carlos@espe.edu.ec",
+      "tipo": "Docente",
+      "rol": "usuario",
+      "contrasena": "123456"
+    },
+    {
+      "id": "4",
+      "nombre": "María Torres",
+      "correo": "maria@espe.edu.ec",
+      "tipo": "Administrativo",
+      "rol": "usuario",
+      "contrasena": "123456"
+    },
+    {
+      "id": "5",
+      "nombre": "Daniela Flores",
+      "correo": "daflores26@espe.edu.ec",
+      "tipo": "Estudiante",
+      "rol": "usuario",
+      "contrasena": "123456"
+    },
+    {
+      "id": "6",
+      "nombre": "Luciana Bolaños",
+      "correo": "lfbolanos3@espe.edu.ec",
+      "tipo": "Estudiante",
+      "rol": "usuario",
+      "contrasena": "123456"
+    }
+  ],
+  "areas": [
+    {
+      "id": "1",
+      "nombre": "Soporte Tecnológico",
+      "descripcion": "Redes, equipos y software"
+    },
+    {
+      "id": "2",
+      "nombre": "Mantenimiento",
+      "descripcion": "Mobiliario y mantenimiento general"
+    },
+    {
+      "id": "3",
+      "nombre": "Infraestructura Eléctrica",
+      "descripcion": "Electricidad e instalaciones"
+    }
+  ],
+  "incidencias": [
+    {
+      "id": "1",
+      "usuarioId": "1",
+      "titulo": "Sin acceso a internet",
+      "descripcion": "No funciona el wifi del laboratorio 3",
+      "ubicacion": "Bloque B, laboratorio 3",
+      "fecha": "2026-11-16T14:00:00.000Z",
+      "prioridad": "Media",
+      "estado": "En proceso",
+      "areaId": "2",
+      "observacionSolucion": ""
+    },
+    {
+      "id": "2",
+      "usuarioId": "2",
+      "titulo": "Silla dañada",
+      "descripcion": "Una silla tiene la pata rota",
+      "ubicacion": "Aula A203",
+      "fecha": "2026-11-16T15:00:00.000Z",
+      "prioridad": "Baja",
+      "estado": "Cerrada",
+      "areaId": "2",
+      "observacionSolucion": "Se arreglaron y solucionaron los problemas :)"
+    },
+    {
+      "id": "J-pXsh13iNg",
+      "usuarioId": "2",
+      "titulo": "Bancas Rotas",
+      "descripcion": "Se encuentran bancas rotas.",
+      "ubicacion": "B-303",
+      "fecha": "2026-11-18T03:31:30.246106Z",
+      "prioridad": "Media",
+      "estado": "Resuelta",
+      "areaId": "2",
+      "observacionSolucion": "La bancas fueron cambiadas por nuevas"
+    },
+    {
+      "id": "-OzjgunP76Q",
+      "usuarioId": "2",
+      "titulo": "Fuga De Agua",
+      "descripcion": "Existe una fuga de agua en los grifos de las canchas deportivas",
+      "ubicacion": "Cancha No3 de Volley",
+      "fecha": "2026-11-18T12:26:52.648Z",
+      "prioridad": null,
+      "estado": "Reportada",
+      "areaId": null,
+      "observacionSolucion": ""
+    },
+    {
+      "usuarioId": "4",
+      "titulo": "Falla en la conexion",
+      "descripcion": "Cable de Ethernet roto y fallo de conexion a la pc",
+      "ubicacion": "Bloque H, aula H302",
+      "fecha": "2026-11-20T00:21:16.717114Z",
+      "prioridad": null,
+      "estado": "Reportada",
+      "areaId": null,
+      "observacionSolucion": "",
+      "id": "__XzMo6KJFc"
+    },
+    {
+      "usuarioId": "5",
+      "titulo": "Proyector sin funcionamiento",
+      "descripcion": "El proyector enciende pero no permite proyectar imagenes",
+      "ubicacion": "Aula G403",
+      "fecha": "2026-11-20T03:13:50.868108Z",
+      "prioridad": null,
+      "estado": "Reportada",
+      "areaId": null,
+      "observacionSolucion": "",
+      "id": "-1Nsml9X5RE"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
